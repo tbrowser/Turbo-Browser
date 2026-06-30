@@ -1,4 +1,4 @@
-# Turbo Browser
+# Turbo Browser - 涡轮浏览器
 
 **基于 Chromium 的增强型桌面浏览器**
 
