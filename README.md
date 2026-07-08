@@ -9,7 +9,7 @@
 [![功能文档](https://img.shields.io/badge/功能文档-了解更多-6366F1?style=for-the-badge)](https://tbrowser.cn/zh/guide/features.html)
 [![Issues](https://img.shields.io/badge/反馈-GitHub_Issues-F97316?style=for-the-badge)](https://github.com/tbrowser/Turbo-Browser/issues)
 
-![Turbo Browser 主界面](https://tbrowser.cn/static/img/guide/turbo-browser@2x.jpg)
+![Turbo Browser 主界面](https://tbrowser.cn/static/img/guide/turbo-browser@2x.jpg?_=20260708)
 
 _Turbo Browser 主界面_
 
