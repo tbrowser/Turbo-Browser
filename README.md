@@ -134,4 +134,6 @@ _Turbo Browser 主界面_
 [![帮助中心](https://img.shields.io/badge/帮助中心-常见问题-0078D4?style=flat-square)](https://tbrowser.cn/zh/guide/help.html)
 [![Email](https://img.shields.io/badge/邮箱-tbrowser%40163.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tbrowser@163.com)
 
+签名服务由 <a href="https://evsign.cn/"><img src="https://evsign.cn/favicon.ico" width="20" height="20" align="top" /><b>EV Sign</b></a> 提供
+
 Copyright © 2023–2026 [Turbo Browser](https://tbrowser.cn)
