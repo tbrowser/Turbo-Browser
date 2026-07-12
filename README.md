@@ -13,7 +13,7 @@
 
 _Turbo Browser 主界面_
 
-[简介](https://tbrowser.cn/zh/guide/what-is-turbo.html) · [快速开始](https://tbrowser.cn/zh/guide/getting-started.html) · [快捷键与手势](https://tbrowser.cn/zh/guide/shortcuts.html) · [帮助中心](https://tbrowser.cn/zh/guide/help.html)
+[简介](https://tbrowser.cn/zh/guide/what-is-turbo.html) · [快速开始](https://tbrowser.cn/zh/guide/getting-started.html) · [快捷键与手势](https://tbrowser.cn/zh/guide/shortcuts.html) · [帮助中心](https://tbrowser.cn/zh/guide/help.html) · [下载](https://tbrowser.cn/zh/guide/download.html)
 
 ---
 
