@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords, Passkeys, browser settings, and extensions |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito small-account tabs, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -92,8 +92,8 @@ _Turbo Browser main window_
 
 - **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position
 - **Tabs** — Double-click to close; block closing the last tab; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
-- **Incognito small-account tabs (Beta)** — Isolated Incognito tabs inside a normal window; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS)
-- **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito small-account tab
+- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS)
+- **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito tab
 - **Address bar** — Hover for QR code; one-click copy link
 
 ### ⬆️ Updates & install
