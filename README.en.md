@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords, Passkeys, browser settings, and extensions |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, double-click / right-click to close tabs, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -87,13 +87,14 @@ _Turbo Browser main window_
 | **Alt quick-save** | Hold `Alt` and left-click a page image to save (Beta); toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
+| **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); toggle in Settings → Appearance (on by default) |
 | **Toolbar** | Tab restore, screenshot entry, and customization |
 
 ### 🏷️ Tabs & address bar
 
 - **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position
-- **Tabs** — Double-click to close; block closing the last tab; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
-- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS)
+- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
+- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**
 - **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito tab
 - **Address bar** — Hover for QR code (copy or download); one-click copy link
 
