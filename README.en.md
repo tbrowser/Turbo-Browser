@@ -71,7 +71,7 @@ _Turbo Browser main window_
 
 - **Boss key** — Default `Ctrl+Q` to hide/show the window; customizable
 - **Mouse gestures** — Hold right button and drag with path preview; defaults ↑↓ scroll, ← back, → forward; customizable
-- **Super drag** — Drag links, text, or images to blank page area to open in a new tab; toggle in gesture settings, and set **background** (default) or **foreground** separately for **left** / **right** drag
+- **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, Incognito tab, copy, etc.)
 
 ### ✂️ UI & productivity
 
