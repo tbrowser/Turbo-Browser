@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords, Passkeys, browser settings, and extensions |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, double-click / right-click to close tabs, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, auto-hide bookmark bar, double-click / right-click to close tabs, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -71,7 +71,7 @@ _Turbo Browser main window_
 
 - **Boss key** — Default `Ctrl+Q` to hide/show the window; customizable
 - **Mouse gestures** — Hold right button and drag with path preview; defaults ↑↓ scroll, ← back, → forward; customizable
-- **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, Incognito tab, copy, etc.)
+- **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, Incognito tab, copy, etc.); follow-cursor tip shows direction and action while dragging (can turn off)
 
 ### ✂️ UI & productivity
 
@@ -84,10 +84,11 @@ _Turbo Browser main window_
 | **Network proxy** | Optional system proxy; custom proxy when system proxy is off |
 | **Parallel downloads** | Toggle in Settings → Downloads (on by default) |
 | **Download tool** | Settings → Downloads — built-in browser, Xunlei, or IDM; falls back to the browser with a toast if the selected app is missing |
-| **Alt quick-save** | Hold `Alt` and left-click a page image to save (Beta); toggle and save location in Settings → Downloads |
+| **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save (Beta); hovering an image may show a guide tip; toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
 | **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); toggle in Settings → Appearance (on by default) |
+| **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal, leave page content to collapse (off by default) |
 | **Toolbar** | Tab restore, screenshot entry, and customization |
 
 ### 🏷️ Tabs & address bar
