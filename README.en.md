@@ -34,9 +34,9 @@ _Turbo Browser main window_
 | 🚀 **Speed & performance** | Fast cold start; low memory use; strong [Speedometer](https://browserbench.org/Speedometer3.0/) scores (results vary by system/hardware; for reference only) |
 | 🔧 **Engine updates** | Tracks the Chromium mainline; security patches and web standards stay current — see [Download](https://tbrowser.cn/en/guide/download.html) for the current version |
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
-| 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords, Passkeys, browser settings, and extensions |
-| 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, auto-hide bookmark bar, double-click / right-click to close tabs, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions |
+| 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; on macOS, also import bookmarks from Safari |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, tab mute, clear selected data on exit, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -53,19 +53,20 @@ _Turbo Browser main window_
 ### 🔄 Accounts & sync
 
 - **Dual sign-in** — Turbo / Google; switch from the avatar menu, sign-in page, Settings → People / Sync, or History
-- **Data sync** — Turbo account uses Turbo cloud sync; Google account uses Google sync. Bookmarks, browsing history, passwords, Passkeys, browser settings, and extensions
+- **Data sync** — Turbo account uses Turbo cloud sync; Google account uses Google sync. Bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions (see Sync settings for the actual toggles)
 
 ### 📦 Migration & import
 
 - **From Chrome / Edge** — Bookmarks, passwords, autofill, extensions (as supported by the current build)
+- **From Safari (macOS)** — Bookmarks; the import wizard guides you if Full Disk Access is needed
 
 ### 🛡️ Stores & extensions
 
 - **Chrome / Edge dual stores** — Available from the menu and the extensions page (`chrome://extensions`)
 - **Crx搜搜** — Sidebar entry on the extensions page; one-click download and install of `.crx` from trusted sources
 - **Edge theme store** — Title bar and sidebar theme entry
-- **AdGuard** — Blocks ads, trackers, and pop-ups for cleaner pages
-- **Immersive Translate** — Bilingual page translation, selection translation, video subtitles, and more
+- **Recommended · AdGuard** — One-click `.crx` from the website; blocks ads, trackers, and pop-ups
+- **Recommended · Immersive Translate** — One-click `.crx` from the website; bilingual page translation, selection translation, video subtitles, and more
 
 ### 🖱️ Mouse gestures & boss key
 
@@ -89,21 +90,26 @@ _Turbo Browser main window_
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
 | **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); toggle in Settings → Appearance (on by default) |
 | **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal, leave page content to collapse (off by default) |
+| **Icons only on bookmark bar** | Toggle in Settings → Appearance; when on, the bar shows favicons only and titles remain on hover (off by default) |
+| **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab |
+| **Clear selected data on exit** | Clear browsing data can auto-delete checked types when you quit (off by default; synced data may restore from the account) |
 | **Toolbar** | Tab restore, screenshot entry, and customization |
 
 ### 🏷️ Tabs & address bar
 
 - **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position
 - **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
-- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**
+- **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
+- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**; extensions allowed in Incognito by default
 - **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito tab
 - **Address bar** — Hover for QR code (copy or download); one-click copy link
+- **macOS reload** — `F5` reload and `Ctrl/⇧+F5` hard reload for muscle memory from Windows
 
 ### ⬆️ Updates & install
 
 - **Engine** — Tracks the Chromium mainline; see [Download](https://tbrowser.cn/en/guide/download.html) for the Chromium version
 - **Updates** — Check in Settings; background automatic checks
-- **Install** — First-run flow; Windows desktop shortcut and pin to taskbar
+- **Install** — First-run flow; Windows desktop shortcut and pin to taskbar; also [Windows Portable](https://tbrowser.cn/en/guide/download.html#portable-zip) (can be set as the system default browser; shown as “Turbo (Portable)” in the system list)
 - **Platforms** — Windows / macOS
 
 ---
