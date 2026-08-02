@@ -90,14 +90,14 @@ _Turbo Browser main window_
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
 | **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); toggle in Settings → Appearance (on by default) |
 | **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal, leave page content to collapse (off by default) |
-| **Icons only on bookmark bar** | Toggle in Settings → Appearance; when on, the bar shows favicons only and titles remain on hover (off by default) |
-| **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab |
+| **Icons only on bookmark bar** | Toggle in Settings → Appearance; hides bookmark titles only, folders keep names; titles remain on hover (off by default) |
+| **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab; `javascript:` bookmarklets still run on the current tab |
 | **Clear selected data on exit** | Clear browsing data can auto-delete checked types when you quit (off by default; synced data may restore from the account) |
 | **Toolbar** | Tab restore, screenshot entry, and customization |
 
 ### 🏷️ Tabs & address bar
 
-- **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position
+- **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position; Expand on hover option; click-to-mute disabled when fully collapsed
 - **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
 - **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
 - **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**; extensions allowed in Incognito by default
