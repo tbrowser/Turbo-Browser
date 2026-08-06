@@ -65,6 +65,7 @@ _Turbo Browser main window_
 - **Chrome / Edge dual stores** — Available from the menu and the extensions page (`chrome://extensions`)
 - **Crx搜搜** — Sidebar entry on the extensions page; one-click download and install of `.crx` from trusted sources
 - **Edge theme store** — Title bar and sidebar theme entry
+- **Built-in translate** — Whole-page translation from the page context menu or the right side of the address bar
 - **Recommended · AdGuard** — One-click `.crx` from the website; blocks ads, trackers, and pop-ups
 - **Recommended · Immersive Translate** — One-click `.crx` from the website; bilingual page translation, selection translation, video subtitles, and more
 
@@ -80,7 +81,7 @@ _Turbo Browser main window_
 | --- | --- |
 | **System theme** | Follow OS light / dark |
 | **One-click skin** | Title-bar button to switch appearance; right-click to pin; also in Customize Toolbar |
-| **Split view** | Toolbar button for side-by-side panes |
+| **Split view** | Toolbar button for side-by-side or top-and-bottom panes; switches layout and remembers the last choice |
 | **Screenshots** | Toolbar left-click full screen, right-click page export (image / PDF); `Ctrl/Cmd+Shift+X` region capture |
 | **Network proxy** | Optional system proxy; custom proxy when system proxy is off |
 | **Parallel downloads** | Toggle in Settings → Downloads (on by default) |
@@ -88,7 +89,7 @@ _Turbo Browser main window_
 | **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save (Beta); hovering an image may show a guide tip; toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
-| **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); toggle in Settings → Appearance (on by default) |
+| **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); when too wide, limit columns and scroll vertically; adjustable max column width; toggle in Settings → Appearance (on by default) |
 | **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal, leave page content to collapse (off by default) |
 | **Icons only on bookmark bar** | Toggle in Settings → Appearance; hides bookmark titles only, folders keep names; titles remain on hover (off by default) |
 | **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab; `javascript:` bookmarklets still run on the current tab |
@@ -98,7 +99,7 @@ _Turbo Browser main window_
 ### 🏷️ Tabs & address bar
 
 - **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position; Expand on hover option; click-to-mute disabled when fully collapsed
-- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
+- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); activate on hover (adjustable delay, off by default); scroll horizontal tab strip to switch tabs (on by default); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
 - **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
 - **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**; extensions allowed in Incognito by default
 - **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito tab
