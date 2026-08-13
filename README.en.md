@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; on macOS, also import bookmarks from Safari |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar shortcuts, right-click “+” paste-and-open, Incognito tabs, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, tab mute, clear selected data on exit, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -73,7 +73,7 @@ _Turbo Browser main window_
 
 - **Boss key** — Default `Ctrl+Q` to hide/show the window; customizable
 - **Mouse gestures** — Hold right button and drag with path preview; defaults ↑↓ scroll, ← back, → forward; customizable
-- **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, Incognito tab, copy, etc.); follow-cursor tip shows direction and action while dragging (can turn off)
+- **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, small account tab, copy, etc.); follow-cursor tip shows direction and action while dragging (can turn off); right-click during a drag to cancel
 
 ### ✂️ UI & productivity
 
@@ -86,11 +86,14 @@ _Turbo Browser main window_
 | **Network proxy** | Optional system proxy; custom proxy when system proxy is off |
 | **Parallel downloads** | Toggle in Settings → Downloads (on by default) |
 | **Download tool** | Settings → Downloads — built-in browser, Xunlei, or IDM; falls back to the browser with a toast if the selected app is missing |
-| **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save (Beta); hovering an image may show a guide tip; toggle and save location in Settings → Downloads |
+| **Confirm download** | With ask-where-to-save on, an in-browser dialog replaces system Save As; rename and pick a folder; one-click Xunlei / IDM from the dialog |
+| **Downloads page** | `chrome://downloads`: filter by type; **Delete file** removes the disk file (history kept); the completed-download bubble quick action is also Delete file |
+| **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save; when on, Alt + right-click opens system Save As; hovering may show a guide tip; toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
-| **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height (Beta); when too wide, limit columns and scroll vertically; adjustable max column width; toggle in Settings → Appearance (on by default) |
-| **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal, leave page content to collapse (off by default) |
+| **Bookmark menu** | ☆ on the bookmark bar by default, or add via Customize toolbar; toggle in Settings → Appearance; multi-column; visibility modes via Settings or bookmark-bar right-click |
+| **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height; when too wide, limit columns and scroll vertically; adjustable max column width; toggle in Settings → Appearance (on by default) |
+| **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal (floats over the page without pushing content), leave page content to collapse (off by default) |
 | **Icons only on bookmark bar** | Toggle in Settings → Appearance; hides bookmark titles only, folders keep names; titles remain on hover (off by default) |
 | **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab; `javascript:` bookmarklets still run on the current tab |
 | **Clear selected data on exit** | Clear browsing data can auto-delete checked types when you quit (off by default; synced data may restore from the account) |
@@ -99,18 +102,20 @@ _Turbo Browser main window_
 ### 🏷️ Tabs & address bar
 
 - **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position; Expand on hover option; click-to-mute disabled when fully collapsed
-- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); activate on hover (adjustable delay, off by default); scroll horizontal tab strip to switch tabs (on by default); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
+- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); tab context menu **Close tabs to the left** (Close tabs above in vertical tabs; pinned tabs are not closed); activate on hover (adjustable delay, off by default); scroll horizontal tab strip to switch tabs (on by default); new blank tab position — First / Before current / After current / Last (default Last; only blank tabs from `Ctrl+T`, “+”, etc.); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
+- **Fade idle tabs** — Toggle in Settings → Performance (on by default); idle tabs sleep then fade (including favicons); timeout follows Memory Saver
 - **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
-- **Incognito tabs (Beta)** — Isolated Incognito tabs inside a normal window; same-session accent bar on the tab top for easy distinction; menu **New Incognito tab (Beta)**; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); webpage link context menu **Open link in Incognito tab**; extensions allowed in Incognito by default
-- **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens an Incognito tab
-- **Address bar** — Hover for QR code (copy or download); one-click copy link
+- **Small account tabs** — Persistent identities in a normal window (cookies remember sign-in; closing a tab does not destroy the session); app menu to create / open / delete identities; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); bookmarks and links can open in the matching account; use a real Incognito window when you need the session wiped on close
+- **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens a small account tab
+- **Address bar** — Hover for QR code (copy or download); one-click copy link (Settings → Appearance: **URL only** or **Title and URL**, default URL only); optional **Open entered URLs in a new tab** (off by default; NTP / blank pages still use the current tab)
+- **Fine zoom** — Hold `Shift` for 5% zoom steps; normal `Ctrl`/`Cmd` + `+/-`, wheel, and buttons still use the original presets
 - **macOS reload** — `F5` reload and `Ctrl/⇧+F5` hard reload for muscle memory from Windows
 
 ### ⬆️ Updates & install
 
 - **Engine** — Tracks the Chromium mainline; see [Download](https://tbrowser.cn/en/guide/download.html) for the Chromium version
 - **Updates** — Check in Settings; background automatic checks
-- **Install** — First-run flow; Windows desktop shortcut and pin to taskbar; also [Windows Portable](https://tbrowser.cn/en/guide/download.html#portable-zip) (can be set as the system default browser; shown as “Turbo (Portable)” in the system list)
+- **Install** — First-run flow; Windows desktop shortcut and pin to taskbar; also [Windows Portable](https://tbrowser.cn/en/guide/download.html#portable-zip) (can be set as the system default browser; shown as “Turbo (Portable)” in the system list; supports in-app in-place updates with data kept in the same folder)
 - **Platforms** — Windows / macOS
 
 ---
