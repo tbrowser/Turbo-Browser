@@ -15,7 +15,7 @@ Free for Windows · macOS · Chromium mainline, with security patches and web st
 
 _Turbo Browser main window_
 
-[What is Turbo](https://tbrowser.cn/en/guide/what-is-turbo.html) · [Quick Start](https://tbrowser.cn/en/guide/getting-started.html) · [Shortcuts & gestures](https://tbrowser.cn/en/guide/shortcuts.html) · [Help](https://tbrowser.cn/en/guide/help.html) · [Download](https://tbrowser.cn/en/guide/download.html)
+[What is Turbo](https://tbrowser.cn/en/guide/what-is-turbo.html) · [Quick Start](https://tbrowser.cn/en/guide/getting-started.html) · [Shortcuts & gestures](https://tbrowser.cn/en/guide/shortcuts.html) · [Help](https://tbrowser.cn/en/guide/help.html) · [Changelog](https://tbrowser.cn/en/guide/changelog.html) · [Download](https://tbrowser.cn/en/guide/download.html)
 
 ---
 
@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; on macOS, also import bookmarks from Safari |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, open Home in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -72,7 +72,7 @@ _Turbo Browser main window_
 ### 🖱️ Mouse gestures & boss key
 
 - **Boss key** — Default `Ctrl+Q` to hide/show the window; customizable
-- **Mouse gestures** — Hold right button and drag with path preview; defaults ↑↓ scroll, ← back, → forward; customizable
+- **Mouse gestures** — Hold right button and drag with path preview; defaults ↑↓ scroll, ← back, → forward; customizable; text tips can use overlay / outline style and top / middle / bottom position
 - **Super drag** — Drag links or images to blank area to open or copy; text can search or copy; configure **up / down / left / right** actions separately (background/foreground new tab, small account tab, copy, etc.); follow-cursor tip shows direction and action while dragging (can turn off); right-click during a drag to cancel
 
 ### ✂️ UI & productivity
@@ -86,8 +86,8 @@ _Turbo Browser main window_
 | **Network proxy** | Optional system proxy; custom proxy when system proxy is off |
 | **Parallel downloads** | Toggle in Settings → Downloads (on by default) |
 | **Download tool** | Settings → Downloads — built-in browser, Xunlei, or IDM; falls back to the browser with a toast if the selected app is missing |
-| **Confirm download** | With ask-where-to-save on, an in-browser dialog replaces system Save As; rename and pick a folder; one-click Xunlei / IDM from the dialog |
-| **Downloads page** | `chrome://downloads`: filter by type; **Delete file** removes the disk file (history kept); the completed-download bubble quick action is also Delete file |
+| **Confirm download** | With ask-where-to-save on, a non-modal in-browser dialog replaces system Save As; rename, pick a folder, and copy the download link; renaming into an existing name prompts to overwrite; one-click Xunlei / IDM from the dialog |
+| **Downloads page** | `chrome://downloads`: filter by type; **Delete file** removes the disk file and the record; pause / resume / cancel and quick retry; toolbar bubble and full page both support new downloads; open the full downloads page from the bubble |
 | **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save; when on, Alt + right-click opens system Save As; hovering may show a guide tip; toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
 | **New tab** | Built-in NTP with wallpaper, search enhancements, and full-page customization |
@@ -95,14 +95,15 @@ _Turbo Browser main window_
 | **Multi-column bookmarks** | Bookmark bar overflow and folder menus split into columns by height; when too wide, limit columns and scroll vertically; adjustable max column width; toggle in Settings → Appearance (on by default) |
 | **Auto-hide bookmark bar** | Settings → Appearance → Show bookmarks bar: Always / Only on NTP / Auto-hide; hover the address bar to reveal (floats over the page without pushing content), leave page content to collapse (off by default) |
 | **Icons only on bookmark bar** | Toggle in Settings → Appearance; hides bookmark titles only, folders keep names; titles remain on hover (off by default) |
-| **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab; `javascript:` bookmarklets still run on the current tab |
+| **Open bookmarks in a new tab** | Toggle in Settings → Appearance; when on, a plain click opens the bookmark in a new tab; NTP / blank pages reuse the current tab; `javascript:` bookmarklets still run on the current tab |
+| **Open Home in a new tab** | Toggle in Settings → Appearance (off by default); in a normal window Home opens a new tab; NTP / blank pages still use the current tab |
 | **Clear selected data on exit** | Clear browsing data can auto-delete checked types when you quit (off by default; synced data may restore from the account) |
-| **Toolbar** | Tab restore, screenshot entry, and customization |
+| **Toolbar** | Tab restore, screenshot entry, and customization; pin **History** from Customize Toolbar |
 
 ### 🏷️ Tabs & address bar
 
-- **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Appearance → Tab position; Expand on hover option; click-to-mute disabled when fully collapsed
-- **Tabs** — Double-click / right-click to close (toggle in Settings → Appearance; hold `Shift` while right-clicking still opens the menu); tab context menu **Close tabs to the left** (Close tabs above in vertical tabs; pinned tabs are not closed); activate on hover (adjustable delay, off by default); scroll horizontal tab strip to switch tabs (on by default); new blank tab position — First / Before current / After current / Last (default Last; only blank tabs from `Ctrl+T`, “+”, etc.); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the last tab, long-press or right-click for the full list
+- **Vertical tabs** — Built-in; default horizontal layout; switch via the tab-strip **Tab layout toggle**, or Settings → Tabs & bookmarks → Tab strip position; in vertical layout, Left or Right, full-height or below-toolbar style, and optional title bar; toolbar matches the side strip color in vertical mode; Expand on hover option; click-to-mute disabled when fully collapsed
+- **Tabs** — Double-click / right-click to close (toggle in Settings → Tabs & bookmarks; hold `Shift` while right-clicking still opens the menu); tab context menu **Close tabs to the left** (Close tabs above in vertical tabs; pinned tabs are not closed); activate on hover (adjustable delay, off by default); scroll horizontal tab strip to switch tabs (on by default); new blank tab position — First / Before current / After current / Last (default Last; only blank tabs from `Ctrl+T`, “+”, etc.); block closing the last tab; confirm before closing multi-tab windows; toolbar **Restore page** left-click restores the most recently closed tab; right-click for a flat list with **Restore all** / clear; restore follows the new-tab-position setting
 - **Fade idle tabs** — Toggle in Settings → Performance (on by default); idle tabs sleep then fade (including favicons); timeout follows Memory Saver
 - **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
 - **Small account tabs** — Persistent identities in a normal window (cookies remember sign-in; closing a tab does not destroy the session); app menu to create / open / delete identities; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); bookmarks and links can open in the matching account; use a real Incognito window when you need the session wiped on close
