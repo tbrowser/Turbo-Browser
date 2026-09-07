@@ -34,7 +34,7 @@ _Turbo Browser main window_
 | 🚀 **Speed & performance** | Fast cold start; low memory use; strong [Speedometer](https://browserbench.org/Speedometer3.0/) scores (results vary by system/hardware; for reference only) |
 | 🔧 **Engine updates** | Tracks the Chromium mainline; security patches and web standards stay current — see [Download](https://tbrowser.cn/en/guide/download.html) for the current version |
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
-| 🔄 **Accounts & sync** | Turbo or Google sign-in; sync bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions |
+| 🔄 **Accounts & sync** | Turbo or Google sign-in; Turbo account incremental sync for bookmarks, passwords (including Passkeys), browser settings, and extensions; Google account uses Google Sync |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; on macOS, also import bookmarks from Safari |
 | ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, open Home in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
@@ -53,7 +53,7 @@ _Turbo Browser main window_
 ### 🔄 Accounts & sync
 
 - **Dual sign-in** — Turbo / Google; switch from the avatar menu, sign-in page, Settings → People / Sync, or History
-- **Data sync** — Turbo account uses Turbo cloud sync; Google account uses Google sync. Bookmarks, browsing history, passwords (including Passkeys), browser settings, and extensions (see Sync settings for the actual toggles)
+- **Data sync** — Turbo account uses Turbo cloud sync (incremental: bookmarks, passwords including Passkeys, browser settings, extensions; does not sync browsing history); Google account uses Google sync (see Sync settings for the actual toggles)
 
 ### 📦 Migration & import
 
@@ -108,7 +108,7 @@ _Turbo Browser main window_
 - **Tab mute** — Click 🔊 on the tab to mute / unmute that tab’s audio (available by default)
 - **Small account tabs** — Persistent identities in a normal window (cookies remember sign-in; closing a tab does not destroy the session); app menu to create / open / delete identities; shortcut `Ctrl+M` (Windows) / `⌃⌘M` (macOS); bookmarks and links can open in the matching account; use a real Incognito window when you need the session wiped on close
 - **Paste and open** — Right-click the tab-strip **New tab** button to open clipboard URLs or search plain text; toggle in Settings → Appearance; when off, right-click opens a small account tab
-- **Address bar** — Hover for QR code (copy or download); one-click copy link (Settings → Appearance: **URL only** or **Title and URL**, default URL only); optional **Open entered URLs in a new tab** (off by default; NTP / blank pages still use the current tab)
+- **Address bar** — Hover for QR code (copy or download); copy icon: left-click URL, right-click title + URL; optional **Open entered URLs in a new tab** (off by default; NTP / blank pages still use the current tab)
 - **Fine zoom** — Hold `Shift` for 5% zoom steps; normal `Ctrl`/`Cmd` + `+/-`, wheel, and buttons still use the original presets
 - **macOS reload** — `F5` reload and `Ctrl/⇧+F5` hard reload for muscle memory from Windows
 
