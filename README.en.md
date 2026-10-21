@@ -34,9 +34,9 @@ _Turbo Browser main window_
 | 🚀 **Speed & performance** | Fast cold start, low memory use; relatively high [Speedometer](https://browserbench.org/Speedometer3.0/) scores (varies by hardware; for reference only) |
 | 🔧 **Engine updates** | Tracks the Chromium mainline; security patches and web standards stay current — see [Download](https://tbrowser.cn/en/guide/download.html) for the current version |
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
-| 🔄 **Accounts & sync** | Turbo or Google sign-in; Turbo account incremental sync for bookmarks, passwords (including Passkeys), browser settings, and extensions; Google account uses Google Sync |
+| 🔄 **Accounts & sync** | Turbo or Google sign-in; Turbo account incremental sync for bookmarks, passwords (including Passkeys), browser settings, and extensions (password sync off by default on new installs); Google account uses Google Sync |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; on macOS, also import bookmarks from Safari |
-| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, open Home in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / Xunlei·IDM handoff |
+| ⚡ **Productivity** | Mouse gestures, boss key, screenshots, split view, tab restore, address-bar copy (URL only / title + URL), open entered URL in a new tab, open Home in a new tab, right-click “+” paste-and-open, small account tabs, bookmark menu, multi-column bookmarks, auto-hide / icons-only bookmark bar, open bookmarks in a new tab, double-click / right-click to close tabs, close tabs to the left, fade idle tabs, fine zoom, tab mute, clear selected data on exit, confirm download / downloads page, Alt quick-save image, parallel downloads / detects 9 third-party download tools |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; move the pointer to the top of the window to reveal; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -53,7 +53,7 @@ _Turbo Browser main window_
 ### 🔄 Accounts & sync
 
 - **Dual sign-in** — Turbo / Google; switch from the avatar menu, sign-in page, Settings → People / Sync, or History
-- **Data sync** — Turbo account uses Turbo cloud sync (incremental: bookmarks, passwords including Passkeys, browser settings, extensions; does not sync browsing history; advanced settings can manually upload / download overwrite to fix dirty data); Google account uses Google sync (see Sync settings for the actual toggles)
+- **Data sync** — Turbo account uses Turbo cloud sync (incremental: bookmarks, passwords including Passkeys, browser settings, extensions; does not sync browsing history; bookmarks and passwords can be toggled separately; **password sync is off by default on new installs**; advanced settings can manually upload / download overwrite to fix dirty data); Google account uses Google sync (see Sync settings for the actual toggles)
 
 ### 📦 Migration & import
 
@@ -86,8 +86,8 @@ _Turbo Browser main window_
 | **Screenshots** | Toolbar left-click full screen, right-click page export (image / PDF); `Ctrl/Cmd+Shift+X` region capture |
 | **Network proxy** | Optional system proxy; custom proxy when system proxy is off |
 | **Parallel downloads** | Toggle in Settings → Downloads (on by default) |
-| **Download tool** | Settings → Downloads — built-in browser, Xunlei, or IDM; falls back to the browser with a toast if the selected app is missing |
-| **Confirm download** | With ask-where-to-save on, a non-modal in-browser dialog replaces system Save As; rename, pick a folder, and copy the download link; renaming into an existing name prompts to overwrite; one-click Xunlei / IDM from the dialog |
+| **Download tool** | **Detects 9 third-party download tools** (Xunlei / IDM / Motrix / AB Download Manager / Free Download Manager / XDown / Rayburst / Ghost Downloader / FluxDown — shown when installed; no matching extension required); built-in browser also available; falls back to the browser with a toast if handoff fails |
+| **Confirm download** | With ask-where-to-save on, a non-modal in-browser dialog replaces system Save As; rename, pick a folder, and copy the download link; renaming into an existing name prompts to overwrite; one-click launch of installed downloaders (with icons) |
 | **Downloads page** | `chrome://downloads`: filter by type; **Delete file** removes the disk file and the record; pause / resume / cancel and quick retry; toolbar bubble and full page both support new downloads; **Clear all** is on the bubble’s outer toolbar; right-click the Downloads button to open the downloads page |
 | **Alt quick-save** | Hold `Alt` / `Option` and left-click a page image to save; when on, Alt + right-click opens system Save As; hovering may show a guide tip; toggle and save location in Settings → Downloads |
 | **Immersive mode** | Auto-hide tab strip and toolbar; reveal at the top edge; `Ctrl/Cmd+F11`; macOS View menu |
