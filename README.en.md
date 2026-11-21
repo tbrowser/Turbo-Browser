@@ -36,7 +36,7 @@ _Turbo Browser main window_
 | 🌐 **Familiar foundation** | Chromium core — web compatibility, extensions, and DevTools aligned with Chrome |
 | 🔄 **Accounts & sync** | Turbo or Google sign-in; Turbo incremental sync for bookmarks, passwords, settings, extensions (password sync off by default on new installs) |
 | 📦 **Easy migration** | Import bookmarks, passwords, autofill, and extensions from Chrome or Edge; Safari bookmarks on macOS |
-| ⚡ **Productivity** | Gestures / boss key, screenshots & split view, vertical / small-account tabs, bookmark menu & multi-column bookmarks, download extras (detects 10 download tools), tab & address-bar enhancements |
+| ⚡ **Productivity** | Gestures / boss key, screenshots & split view, vertical / small-account tabs, bookmark menu & multi-column bookmarks, download extras (detects 11 download tools), tab & address-bar enhancements |
 | 🖥️ **Immersive mode** | Auto-hide tab strip and toolbar; can auto-enter next time; works with vertical tabs; `Ctrl/Cmd+F11`; keep window on top |
 | 🛍️ **Dual stores** | Chrome Web Store + Microsoft Edge Add-ons; Crx搜搜 one-click install from the extensions page |
 
@@ -79,7 +79,7 @@ _Turbo Browser main window_
 | --- | --- |
 | **One-click skin / Split view** | Title-bar skin switch; side-by-side or top-and-bottom panes |
 | **Screenshots** | Full screen / page export (PNG / JPEG / PDF); Windows long screenshot; `Ctrl/Cmd+Shift+X` region capture |
-| **Download extras** | Parallel acceleration; detects 10 download tools; in-page confirm dialog; Alt quick-save images |
+| **Download extras** | Parallel acceleration; detects 11 download tools; in-page confirm dialog; Alt quick-save images |
 | **Immersive mode** | Auto-hide tab strip and toolbar; can auto-enter next time; works with vertical tabs; `Ctrl/Cmd+F11` |
 | **New tab** | My shortcuts / Most visited; adjustable look and independent search engine |
 | **Bookmarks** | Bookmark menu, multi-column, auto-hide / icons only, open in a new tab, and more |
